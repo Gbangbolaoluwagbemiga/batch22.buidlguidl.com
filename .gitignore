@@ -21,8 +21,3 @@ node_modules
 
 # cli
 dist
-
-# environment variables
-.env
-.env.local
-.env*.local
