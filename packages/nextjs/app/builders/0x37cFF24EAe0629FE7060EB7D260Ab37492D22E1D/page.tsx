@@ -1,5 +1,5 @@
 import Image from "next/image";
-import InfoCard from "./components/InfoCard";
+import { InfoCard } from "./components/InfoCard";
 import { PROFILE_DATA, SOCIAL_LINKS } from "./constants";
 import { Address } from "@scaffold-ui/components";
 import type { NextPage } from "next";
