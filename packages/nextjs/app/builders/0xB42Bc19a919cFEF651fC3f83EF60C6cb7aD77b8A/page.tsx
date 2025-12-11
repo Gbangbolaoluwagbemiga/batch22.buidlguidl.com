@@ -13,7 +13,7 @@ const EasonPage: NextPage = () => {
       <header className="border-b border-gray-200 dark:border-gray-700">
         <div className="max-w-3xl mx-auto px-4 py-10 flex flex-col items-center text-center">
           <Image
-            src="/EasonProfile.webp"
+            src="/Eason.webp"
             alt="Eason Profile"
             width={128}
             height={128}
