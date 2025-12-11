@@ -4114,12 +4114,12 @@ __metadata:
     burner-connector: 0.0.18
     daisyui: ^5.0.9
     eslint: ^9.23.0
-    eslint-config-next: ^15.2.4
+    eslint-config-next: ^15.5.7
     eslint-config-prettier: ^10.1.1
     eslint-plugin-prettier: ^5.2.4
     kubo-rpc-client: ^5.0.2
     lucide-react: ^0.468.0
-    next: ^15.2.4
+    next: ^15.5.7
     next-nprogress-bar: ^2.3.13
     next-themes: ^0.3.0
     postcss: ^8.4.45
@@ -9329,7 +9329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:^15.2.4":
+"eslint-config-next@npm:^15.5.7":
   version: 15.5.7
   resolution: "eslint-config-next@npm:15.5.7"
   dependencies:
@@ -13969,7 +13969,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^15.2.4":
+"next@npm:^15.5.7":
   version: 15.5.7
   resolution: "next@npm:15.5.7"
   dependencies:
