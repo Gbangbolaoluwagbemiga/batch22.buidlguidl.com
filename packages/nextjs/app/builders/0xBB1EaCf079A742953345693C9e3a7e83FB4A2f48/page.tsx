@@ -22,7 +22,7 @@ const AndrewPage: NextPage = () => {
             <h1 className="text-5xl md:text-6xl font-bold mb-4 text-base-content">Andrew</h1>
             <p className="text-xl text-base-content/60 mb-6">Blockchain Developer & Web3 Architect</p>
             <div className="inline-block bg-base-200 rounded-lg px-4 py-2">
-              <Address address="0xbb1eacf079a742953345693c9e3a7e83fb4a2f48" />
+              <Address address="0xBB1EaCf079A742953345693C9e3a7e83FB4A2f48" />
             </div>
           </div>
         </div>
