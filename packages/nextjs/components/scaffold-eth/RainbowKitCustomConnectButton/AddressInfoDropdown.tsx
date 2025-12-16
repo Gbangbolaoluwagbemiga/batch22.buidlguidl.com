@@ -13,6 +13,7 @@ import {
   EyeIcon,
   QrCodeIcon,
 } from "@heroicons/react/24/outline";
+import { ClockIcon } from "@heroicons/react/24/outline";
 import { CheckBadgeIcon } from "@heroicons/react/24/solid";
 import { BlockieAvatar } from "~~/components/scaffold-eth";
 import { useCopyToClipboard, useOutsideClick, useScaffoldReadContract } from "~~/hooks/scaffold-eth";
@@ -83,7 +84,18 @@ export const AddressInfoDropdown = ({
             ) : (
               <span className="badge badge-ghost badge-xs">Not in batch</span>
             )}
-            {isCheckedIn ? <span className="badge badge-info badge-xs">Checked-in</span> : null}
+            {isMember && isCheckedIn ? (
+              <span className="badge badge-info badge-xs gap-1">
+                <CheckCircleIcon className="h-3 w-3" />
+                Checked-in
+              </span>
+            ) : null}
+            {isMember && !isCheckedIn ? (
+              <span className="badge badge-warning badge-xs gap-1">
+                <ClockIcon className="h-3 w-3" />
+                Not checked-in
+              </span>
+            ) : null}
           </span>
           <ChevronDownIcon className="h-6 w-4 ml-2 sm:ml-0" />
         </summary>
